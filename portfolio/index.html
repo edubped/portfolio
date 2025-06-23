@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/yuri.png" alt="avatar do Eduardo" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Eduardo</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou estudante do Ensino Médio. Já fiz um curso de informática, no qual aprendi o básico da programação.
+             Nesse curso, foi usado a plataforma "P5JS", que se trata de um programa de simples entendimento,
+              específico para iniciantes na programação. Veja os projetos que já desenvolvi</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">P5JS</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/monalisa.png" class="card-img-top" alt="Imagem do projeto Monalisa">
+                    <div class="card-body">
+                        <h5 class="card-title">Monalisa</h5>
+                        <p class="card-text">Este projeto é uma figura que simula o famoso quadro Monalisa, de Leonardo da Vinci, que é muito famosa mundialmente não apenas pela sua riqueza em detalhes, 
+                            mas também por um efeito curioso que essa pintura causa, um efeito em que parece que os olhos dela esta te acompanhando a todo momento, e esse projeto simula exatamente isso, 
+                            com os olhos da figura acompanhando o cursor por onde ele passa.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/quente frio.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Quente e Frio</h5>
+                        <p class="card-text">Este projeto consiste em um jogo, no qual o objetivo do jogador é encontrar o ponto secreto, ao passar o mouse na tela, 
+                            a bolinha vai mudando de tamanho, quanto mais longe do ponto, a bolinha fica maior, quanto mais perto, fica menor, até que o jogador encontre o ponto 
+                            e apareça uma mensagem: "Encontrei!".
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/corrida.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrida </h5>
+                        <p class="card-text">Este projeto também se trata de um jogo, mas dessa vez, um clássico jogo de corrida, no qual o objetivo é atravessar
+                            a linha de chegada antes dos demais adversários. Existem quatro players que competem entre si, e cada um deles tem sua tecla correspondente, que quando pressionada, 
+                            movimenta o personagem até uma curta distância, ou seja, vence quem clicar as teclas mais rápido.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Monalisa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é uma homenagem ao famoso quadro Monalisa, de Leonardo da Vinci, uma das obras de arte mais icônicas e intrigantes da história.
+                         A Monalisa é conhecida não apenas por sua riqueza em detalhes e técnica artística, mas também por um efeito curioso que causa nos espectadores: 
+                         parece que os olhos dela estão seguindo o observador, independentemente da posição em que se encontra. Esse efeito ilusório é
+                         resultado da combinação da técnica de pintura e da expressão enigmática da Mona Lisa.</p>
+                    <p>Esse projeto busca simular esse efeito fascinante utilizando tecnologia. Com o uso de recursos de programação e design, criamos uma figura que replica 
+                        a Monalisa e que tem olhos que acompanham o cursor do mouse em tempo real. À medida que o cursor se move pela tela, os olhos da figura se ajustam para 
+                        seguir o movimento, criando uma experiência interativa e imersiva.</p>
+                    <p>O objetivo desse projeto é não apenas recriar o efeito ilusório da Monalisa, mas também explorar as possibilidades da tecnologia em reproduzir e
+                         reinterpretar obras de arte clássicas de maneira inovadora e atraente.</p>
+                    <img src="img/monalisa.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/eduardoberto2c/sketches/IBCAHAskm">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Quente e Frio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto consiste em um jogo interativo e desafiador, no qual o objetivo do jogador é encontrar um ponto secreto na tela. 
+                        O jogo utiliza uma bolinha que muda de tamanho de acordo com a proximidade do cursor em relação ao ponto secreto.</p>
+                    <p>Quanto mais longe o cursor estiver do ponto secreto, maior a bolinha se tornará, servindo como um indicador de que o jogador
+                         ainda está distante do objetivo. À medida que o jogador se aproxima do ponto secreto, a bolinha começa a diminuir de tamanho,
+                          sinalizando que está perto de alcançar o objetivo.</p>
+                    <p>O jogo termina quando o jogador finalmente encontra o ponto secreto, momento em que uma mensagem de vitória aparece na tela: "Encontrei!".
+                         Esse simples mecanismo de feedback cria uma experiência de jogo engajadora e divertida, desafiando o jogador a usar sua habilidade de 
+                         percepção e intuição para localizar o ponto secreto.</p>
+                    <p>O objetivo desse projeto é criar um jogo que seja ao mesmo tempo simples e desafiador, utilizando conceitos básicos de programação e
+                         interação para criar uma experiência de usuário agradável e viciante.</p>
+                    <img src="img/quente frio.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/eduardoberto2c/sketches/p7ecHE6j4">Ver projeto ao
+                        vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Corrida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é um jogo de corrida clássico e emocionante, onde o objetivo é atravessar 
+                        a linha de chegada antes dos demais adversários. Neste jogo, quatro jogadores competem
+                         entre si em uma corrida intensa, onde a velocidade e a habilidade de reação são fundamentais 
+                         para vencer.</p>
+                    <p>Cada jogador tem uma tecla correspondente que, quando pressionada, movimenta o personagem uma 
+                        curta distância em direção à linha de chegada. O jogador que conseguir pressionar a tecla mais 
+                        rapidamente e com mais frequência terá mais chances de vencer a corrida.</p>
+                    <p>O jogo é simples, mas exige habilidade e rapidez, tornando-o um desafio divertido e competitivo
+                         para os jogadores. Com quatro jogadores competindo ao mesmo tempo, a emoção e a adrenalina
+                          estão garantidas!</p>
+                          <p>O objetivo desse projeto é criar um jogo de corrida rápido e emocionante, que testa a 
+                            habilidade e a velocidade dos jogadores, proporcionando uma experiência de jogo divertida
+                             e interativa.</p>
+                    <img src="img/corrida.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/eduardoberto2c/sketches/L6nUoj58k">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/edubped/portfolio/tree/main/portfolio">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Eduardo Bertani</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
